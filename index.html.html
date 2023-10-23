@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Define styles for the email signature */
+    .email-signature {
+      font-family: 'Lato', Arial, sans-serif; /* Use 'Lato' font */
+      padding: 10px;
+      color: #4a58a6; /* Set the text color to blue (#4a58a6) */
+    }
+
+    /* Define styles for the table */
+    table { 
+      border-collapse: collapse; /* Collapse the borders between table cells */
+      background-image: url('https://github.com/Jean-Paul-Ayoub/email-signature-files/blob/main/Email-Signature-Background.jpg?raw=true');
+      background-size: auto 100%;
+      background-repeat: no-repeat; /* Prevent the image from repeating */
+      background-position: left center; /* Center the background */
+    }
+
+    /* Define styles for the columns */
+    .columns-container {
+      display: table;
+      table-layout: auto; /* Adjust table layout based on content */
+    }
+
+    .column {
+      display: table-cell;
+      padding: 0 10px;
+    }
+
+    /* Define styles for the first column */
+    .column1 {
+      padding: 10px;
+      text-align: right; /* Align text to the right by default */
+    }
+
+    /* Define styles for the second column */
+    .column2 {
+      padding: 10px;
+      text-align: left; /* Align text to the left by default */
+    }
+
+    /* Define styles for the logo */
+    .logo {
+      max-width: 100px;
+      height: auto;
+      margin-top: 20px;
+    }
+
+    /* Adjust the font size and weight for the name and profession */
+    .name {
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .profession {
+      font-size: 12px;
+      font-weight: 500;
+      margin-top: 5px;
+    }
+
+    /* Define a class for phone, email, and address sections */
+    .contact-info {
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    /* Define styles for clickable links */
+    .clickable {
+      color: #4a58a6;
+    }
+
+    /* Define a class for custom icons */
+    .custom-icon {
+      width: 12px;
+      height: 12px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="email-signature">
+    <div class="columns-container">
+      <table>
+        <tr>
+          <td class="column column1">
+            <div class="name">Full Name</div>
+            <div class="profession">Profession</div>
+            <div class="contact-info"><img src="https://github.com/Jean-Paul-Ayoub/email-signature-files/blob/main/OPS-Logo.png?raw=true" alt="Company Logo" class="logo"></div>
+          </td>
+        <td class="column column2">
+          <div class="contact-info"><img src="https://raw.githubusercontent.com/Jean-Paul-Ayoub/email-signature-files/be722f2a4d962b7580e2fba8d9ea1fc5d0b5adf8/Phone-icon.svg" alt="Phone Icon" class="custom-icon"><a href="tel:+966000000000" class="clickable">+966000000000</a></div>
+          <div class="contact-info"><img src="https://raw.githubusercontent.com/Jean-Paul-Ayoub/email-signature-files/be722f2a4d962b7580e2fba8d9ea1fc5d0b5adf8/Address-icon.svg" alt="Email Icon" class="custom-icon"><a href="mailto:youremail@example.com" class="clickable">youremail@example.com</a></div>
+          <div class="contact-info"><img src="https://raw.githubusercontent.com/Jean-Paul-Ayoub/email-signature-files/be722f2a4d962b7580e2fba8d9ea1fc5d0b5adf8/Email-icon.svg" alt="Map Icon" class="custom-icon"><a href="https://www.google.com/maps/place/KristiesLab/@34.0224821,35.6483882,17z/data=!4m6!3m5!1s0x151f40965b3e27d1:0x450a0621328fdef4!8m2!3d34.0227461!4d35.6486827!16s%2Fg%2/1hf418kdz?entry=ttu" class="clickable">123 Main St, City, Country</a></div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
